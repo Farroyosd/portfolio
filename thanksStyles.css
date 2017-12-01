@@ -1,0 +1,44 @@
+body{
+    background-image: url('./views/public/letters.jpg');
+    margin:0;    
+    height:100vh; 
+    width:100vw; 
+    background-size:cover;
+    background-position: center;
+}
+.dearMessage {
+    margin-top: 10vh;
+    margin-bottom: 1rem;
+    margin-left: 50vw;
+    font-family: cursive;
+    font-size: 1.9vw
+
+}
+.contact{
+    max-width: 40vw;
+    padding-left: 15vw;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+}
+.contact1{
+    max-width: 40vw;
+    padding-left: 15vw;
+    font-size: 1.5vw;
+}
+
+/* media queries */
+@media screen and (max-width: 576px){
+    .dearMessage {
+        font-size: 5vw;
+    }
+    .contact {
+        max-width: 50vw;
+        padding-left: 5vw;
+        font-size: 4vw;
+    }
+    .contact1 {
+        max-width: 50vw;
+        padding-left: 5vw;
+        font-size: 4vw;
+    }
+}

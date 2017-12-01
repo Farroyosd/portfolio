@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../styles.css' />
+    <title> Francisco's Portfolio </title>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Francisco Arroyo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="divs home" id="home">
+        <h1 class="hAText">
+            <span class="letters letters-1">Dream</span><br>
+            <span class="letters letters-2">Imagine</span>
+            <span class="letters letters-3">Build</span>
+            <span class="letters letters-4">Create</span>
+            <span class="letters letters-5">Arroyo Creations</span>
+        </h1>
+    </div>
+    <div class="divs about" id="about">
+        <div class="aTContainer Container">
+            <p class="aboutText">I enjoy creating Beautiful, Modern, Websites and Applications using my skills and knowledge in Node, React, Express,
+                MongoDB, Jquery, and Bootstrap to name a few. Please continue to view my Portfolio page</p>
+        </div>
+        <div class="aboutIcons">
+            <img class="aIcon" src="./views/public/GitHubIcon.png" alt="HTML5 Icon">
+            <img class="aIcon" src="./views/public/htmlIcon.png" alt="HTML5 Icon">
+            <img class="aIcon" src="./views/public/bootstrapIcon.png" alt="HTML5 Icon">
+            <img class="aIcon" src="./views/public/nodeIcon.png" alt="HTML5 Icon">
+            <img class="aIcon" src="./views/public/reactIcon.png" alt="HTML5 Icon">
+            
+        </div>
+    </div>
+    <div class="divs portfolio" id="portfolio">
+        <h1 class="portfolioHeader">Recent Projects</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 mPImgDiv">
+                    <div class="vstdaImg pImgDiv"></div>
+                </div>
+                <div class="col-sm-8 a1 pfDesDivs vstdaDes">
+                    <h1 class="vstdaHeader">Very Simple Todo App</h1>
+                    <p>Built in React, App allows users to enter todo items, prioritize them based on their importance, store
+                        them and access them through a friendly Interface. User can then make changes to their todo items
+                        such as update description and priority , mark todo item as completed, save changes and delete the
+                        todo item. </p>
+                    <p>View app via <a href="https://fa-vstda.herokuapp.com/"><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon">
+                    </a>or Git it from <a href="https://github.com/Farroyosd/startnow-react100-vstda"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="row flex-column-reverse flex-md-row">
+                <div class="col-sm-8 a2 pfDesDivs twDes">
+                    <h1>Travel Wise</h1>
+                    <p>A 72hr Hackathon project using React, Google Maps and REST Countries API. App allows the user to select
+                        a country they wish to learn fun facts about. The user will be guided through the app given fun facts
+                        such as Countries Capital, Population, Currency, Flag, Language, Neighboring countries and a View
+                        of the Country and its neighbors via Google Maps.</p>
+                    <p>View app via <a href="https://fa-countrieshackathon.herokuapp.com/"><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon"></a>or
+                        Git it from <a href="https://github.com/Farroyosd/countrieshackathon"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                </div>
+                <div class="col-sm-4 mPImgDiv">
+                    <div class="twImg pImgDiv"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mPImgDiv">
+                    <div class="pfImg pImgDiv"></div>
+                </div>
+                <div class="col-sm-8 a3 pfDesDivs pfDes">
+                    <h1>Portfolio</h1>
+                    <p>Single page, smooth scrolling, Portfolio project with top fixed Navigation bar, 4 navigable sections
+                        and a footer, built with Node, Express, EJS and Twilio API. Project is mobile compatible. Contact
+                        section uses Twilio API to contact site owner via Text Message.</p>
+                    <p>View app via <a href=""><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon"></a>or
+                        Git it from <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="divs contact" id="contact">
+        <div class="text-center">
+            <h1 class="contactHeader">Let's Connect</h1>
+            <img class="handshake" src="./views/public/handshake.png" />
+        </div>
+        <form class="container contactContainer text-white" id="needs-validation" action="/thanks" method="POST" novalidate>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" name="firstName" class="form-control" id="validationCustom01" required>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" name="lastName" class="form-control" id="validationCustom02" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <label for="validationCustom03">Phone Number</label>
+                    <input type="number" name="phoneNumber" class="form-control" id="validationCustom03" required>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <label for="validationCustom04">Email</label>
+                    <input type="email" name="email" class="form-control" id="validationCustom04" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="validationCustom05">Contact Message</label>
+                <textarea class="form-control" name="message" id="validationCustom05" required rows="5"></textarea>
+                <div class="invalid-feedback">
+                    Please complete all fields*
+                </div>
+            </div>
+            <button class="btn btn-dark" type="submit">Message Me</button>
+        </form>
+    </div>
+    <div id="footer" class="container-fluid">
+        <p class="py-2 pr-2 text-muted text-right footer">&copy;2017 Francisco Arroyo </p>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="../scrolling-nav.js"></script>
+    <script src="../match-height-init.js"></script>
+</body>
+
+</html>

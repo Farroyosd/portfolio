@@ -1,0 +1,227 @@
+body {
+    margin:0;    
+    height:100vh; 
+    width:100vw;  
+
+}
+.nav-link{
+    text-align: right;
+}
+.navbar{
+    background-color: #242424;
+}
+.divs{
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-position: center;
+}
+.home{
+    background-image:url('./views/public/servers.jpg');
+}
+    .hAText {
+        position: relative;
+        font-weight: 600;
+        font-size: 15vw;
+    }
+    .hAText .letters {
+        position: relative;
+        top: 5px;
+        opacity: 0;
+        color: #bec0c4;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .hAText .letters-5 {
+    position: absolute;
+    padding-top: 20vh;
+    top:0;
+    left:0;
+    text-align: center;
+    
+    opacity: 0;
+    }
+    
+  
+.about{
+    background-image:url('./views/public/San_Diego_Skyline.jpg');
+    
+}
+    .aTContainer{
+        max-width: 30vw;
+        padding-top: 20vh;
+        margin-left: 5vw;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .aIcon{
+        margin-top:20vh;
+    }
+    .aboutIcons{
+        margin-top: 25vh;
+        padding-left: 40vw;
+    }
+    
+   
+.portfolio{
+    background-image:url('./views/public/building.jpg');
+}
+    .portfolioHeader{
+        padding-top: 60px;
+        padding-left: 10px;
+        color: white;
+        text-shadow: 2px 2px 4px #5791D3;
+        font-size: 2.5vw;
+    }
+    .pImgDiv{
+        height: 27vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        border: 1px solid #4CAF50;
+        border-radius: 5px;
+        margin-bottom: 2vh;
+
+    }
+    .pImgDiv:hover {
+        opacity: .9;
+    }
+    .vstdaImg{
+        background-image:url('./views/public/VSTDA.png');
+    }
+    .twImg{
+        background-image:url('./views/public/TravelWise.png');
+    }
+    .pfImg{
+        background-image:url('./views/public/portfolio.png');
+    }
+    .pfDesDivs{
+        
+        color: white;
+        background-color: #8bb5da;;
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center;
+        border: 1px solid #4CAF50;
+        border-radius: 5px;
+        font-size: 1.2vw;
+        padding: 10px;
+        display: none;
+        margin-bottom: 2vh;
+        
+    }
+    .pfDesDivs h1{
+        font-size: 2.5vw;
+        text-decoration: underline;
+    }
+    .fa-github{
+        font-size: 2vw;
+        color: black;
+        text-shadow: none;
+    }
+    .herokuIcon{
+        height: 2vw;
+        margin-bottom: 0.75em;
+    }
+    .vstdaDes{
+
+    }
+
+    .twDes{
+    font-size: 1.12vw;  
+        
+    
+    }
+    .pfDes{
+    
+    }
+.contact{
+    background-image:url('./views/public/wood-laptop.jpeg');
+}
+.handshake{
+    opacity: 0.7;
+    width: 25vw;
+}
+.contactHeader{
+    color: #afa074;
+    font-size: 8vw;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 60px;
+    font-family: vendetta Arial, Helvetica, sans-serif;
+    
+}
+.contactContainer{
+    width: 60vw;
+   padding-left:0;
+   padding-right: 0;
+  }
+.invalid-feedback{
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000000;
+}
+#footer{
+    background-color: #242424;
+}
+.footer{
+    margin-bottom: 0;
+}
+
+/* media queries */
+@media screen and (max-width: 900px){
+    .aboutIcons {
+        margin-top: 10vh;
+        padding-left: 20vw;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .hAText .letters {
+        top: 20vh;
+        font-size: 20vw;
+        
+    }
+    .aTContainer {
+        max-width: 50vw;
+        font-size: 4.5vw;
+    }
+    .aboutIcons {
+        margin-top: 10vh;
+        padding-left: 20vw;
+    }
+    .aIcon{
+        height: 13vw;
+        margin-top:20vh;
+    }
+    .contact {
+        height: auto;
+        width: auto;
+    }
+    .contactContainer{
+        padding-bottom: 10px;
+    }
+    #footer{
+        font-size: 4vw;
+    }
+    .portfolio {
+        height: auto;
+        width: auto;
+    }
+    .mPImgDiv{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .pfDesDivs{
+        font-size: 3.1vw;
+    }
+    .pfDesDivs h1 {
+        font-size: 3.1vw;
+    }
+    .herokuIcon {
+        height: 4vw;
+        margin-bottom: 0.2em;
+    }
+    .fa-github {
+        font-size: 3.9vw;
+    }
+    .portfolioHeader {
+        font-size: 6vw;
+    }
+}
