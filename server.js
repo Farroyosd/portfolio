@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv')
     dotenv.config();
-    
+
 const client = require('twilio')(process.env.DB_TWSID, process.env.DB_KEY);
 const app = express();
 
@@ -11,6 +11,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static(__dirname));
+app.set('port', (process.env.PORT || 8080));
 
 app.set('views', './views');
 
@@ -55,6 +56,6 @@ app.post('/thanks', (req, res) => {
     res.render('thanks', { userInfo: req.body })
   });
 
-app.listen(8080, () => {
-    console.log('listening at http://localhost:8080')
-})
+  app.listen(app.get('port'), () => {
+    console.log('listening at http://localhost:' + app.get('port'));
+  });
