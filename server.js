@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv')
     dotenv.config();
-    console.log(process.env.DB_KEY)
+    
 const client = require('twilio')(process.env.DB_TWSID, process.env.DB_KEY);
 const app = express();
 
