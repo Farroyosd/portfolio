@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../twStyles.css' />
+    <title> Travel Wise </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <a class="navbar-brand" href="/">Francisco Arroyo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/#portfolio">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="twContainer">
+            <h1 class="mainHeader">Travel Wise</h1>
+            <p class="pInfo">A web app that gives you information about a country of your choice. 
+                Quick facts to make you a wise traveller. </p>
+            <a class="mkLink" href="https://fa-countrieshackathon.herokuapp.com/">See It Live Here</a>
+            <div class="upperContainer">
+                <div class="builtInfo">
+                    <p>Built with:</p>
+                    <ul>
+                        <li>Create React App</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>Rest Countries API</li>
+                        <li>Google Maps API</li>
+                        <li>Bootstrap</li>
+                        <li>& more...</li>
+                    </ul>
+                </div>
+                <img src="./views/public/tw0.png" alt="Image of Project">
+            </div>
+            <div class="imgContainer">
+                <img src="./views/public/tw1.png" alt="Image of Project">
+            </div>
+            <div class="signupInfo">
+                <p>Select a country you wish to learn a couple facts about. For instance Brazil. 
+                    Click on the "Ready?Set?Go!" to begin. An Axios HTTP Request is sent to Rest Countries API for information on selected County. To Start things 
+                    off we meet Mike our Travel Wise Agent. He will double check your Country of 
+                    choice and then click on "Next" to begin the journey.</p>
+            </div>
+            <div class="imgContainer">
+                <img src="./views/public/tw2.png" alt="Image of Project">
+            </div>
+            <div class="signupInfo">
+                <p>Mike gives you some fun facts about the country such as population size and the Countries
+                        Flag. The data retrieved from Rest Countries API contains a URL for each countries flag 
+                        and is used to display the flag.
+                </p>
+            </div>
+            <div class="imgContainer">
+                    <img src="./views/public/tw3.png" alt="Image of Project">
+                </div>
+                <div class="signupInfo">
+                    <p>Mike continues on and gives facts on what other countries call your country of choice and 
+                            advise on what currency is used by the country along with their language.</p>
+                </div>
+                <div class="imgContainer">
+                    <img src="./views/public/tw4.png" alt="Image of Project">
+                </div>
+                <div class="signupInfo">
+                    <p>Lastly Mike tells you about the neighboring countries and where your Country is on 
+                        google maps. The data retrieved list abbreviations of neighboring countries. Additional 
+                        Axios Http Request are made to get countries full name for display. Google Maps API along
+                         with countries Latitude and Longitude are used to display country via Google Maps.
+                    </p>
+                </div>
+        
+    
+    </div>
+
+    <div id="footer" class="container-fluid">
+        <p class="py-2 pr-2 text-muted text-right footer">&copy;2018 Francisco Arroyo </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

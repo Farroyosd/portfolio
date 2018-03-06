@@ -44,65 +44,111 @@
         </h1>
     </div>
     <div class="divs about" id="about">
-        <div class="aTContainer Container">
-            <p class="aboutText">I enjoy creating Beautiful, Modern, Websites and Applications using my skills and knowledge in Node, React, Express,
-                MongoDB, Jquery, and Bootstrap to name a few. Please continue to view my Portfolio page</p>
+        <div class="aTContainer">
+            <p class="aboutText">My name is Francisco Arroyo.</p>
+            <p class="aboutText">I am a Full Stack Developer with a great interest in building </p>
+            <p class="aboutText">dynamic Web and Mobile Apps with a focus on consumer and business needs. Looking to apply </p>
+            <p class="aboutText">my passion and dedication for software development with a company where I can</p>
+            <p class="aboutText">continue to learn, grow and contribute.</p>
         </div>
-        <div class="aboutIcons">
-            <img class="aIcon" src="./views/public/GitHubIcon.png" alt="HTML5 Icon">
-            <img class="aIcon" src="./views/public/htmlIcon.png" alt="HTML5 Icon">
-            <img class="aIcon" src="./views/public/bootstrapIcon.png" alt="HTML5 Icon">
-            <img class="aIcon" src="./views/public/nodeIcon.png" alt="HTML5 Icon">
-            <img class="aIcon" src="./views/public/reactIcon.png" alt="HTML5 Icon">
-            
+        <p class="aboutText2">Please continue to view my recent projects and how to contact me. Enjoy ~</p>
+        <div class="toolContainer">
+            <p class="toolsText aboutText">I create with:</p>
+        </div>
+        <div class="icon-flex-container">
+            <div class="iconDivs"><img src="./views/public/html5.png" alt="HTML5 Icon">
+                <p>HTML5</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/css3.png" alt="CSS3 Icon">
+                <p>CSS3</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/js.png" alt="JS Icon" style="border-radius: 15%">
+                <p>JavaScript</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/react.png" alt="React Icon">
+                <p>React &</p>
+                <p>React Native</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/nodejs.png" alt="Node Icon" class="nodeImg" style="width: 9.03vw; margin-left: 2.5vw; margin-top: -2vw;">
+                <p class="nodeP">Node</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/mongodb.png" alt="MongoDB Icon">
+                <p>MongoDB</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/redux.png" alt="Redux Icon" style="padding-top: 12.52px" class="reduxImg">
+                <p>Redux</p>
+            </div>
+            <div class="iconDivs"><img src="./views/public/github.png" alt="GitHub Icon">
+                <p>GitHub</p>
+            </div>
         </div>
     </div>
     <div class="divs portfolio" id="portfolio">
-        <h1 class="portfolioHeader">Recent Projects</h1>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4 mPImgDiv">
-                    <div class="vstdaImg pImgDiv"></div>
+            <h1 class="rProjects">Recent Projects</h1>
+            <div class="pCard">
+                <img src="./views/public/sdjs.png" alt="Image of Project" style="width:100%">
+                <div style="background-color: #0000001c;height:1px"></div>
+                <div class="pInfo">
+                    <h4><b>San Diego Check-In</b></h4>
+                    <div class="pCardFooter">
+                    <p>Mobile check-in app for the meetup group San Diego JS</p>
+                    <form action="/SanDiegoCheckIn" method="GET">
+                        <button class="pBtn btn" type="submit">See More</button>
+                    </form>
                 </div>
-                <div class="col-sm-8 a1 pfDesDivs vstdaDes">
-                    <h1 class="vstdaHeader">Very Simple Todo App</h1>
-                    <p>Built in React, App allows users to enter todo items, prioritize them based on their importance, store
-                        them and access them through a friendly Interface. User can then make changes to their todo items
-                        such as update description and priority , mark todo item as completed, save changes and delete the
-                        todo item. </p>
-                    <p>View app via <a href="https://fa-vstda.herokuapp.com/"><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon">
-                    </a>or Git it from <a href="https://github.com/Farroyosd/startnow-react100-vstda"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    </p>
                 </div>
             </div>
-            <div class="row flex-column-reverse flex-md-row">
-                <div class="col-sm-8 a2 pfDesDivs twDes">
-                    <h1>Travel Wise</h1>
-                    <p>A 72hr Hackathon project using React, Google Maps and REST Countries API. App allows the user to select
-                        a country they wish to learn fun facts about. The user will be guided through the app given fun facts
-                        such as Countries Capital, Population, Currency, Flag, Language, Neighboring countries and a View
-                        of the Country and its neighbors via Google Maps.</p>
-                    <p>View app via <a href="https://fa-countrieshackathon.herokuapp.com/"><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon"></a>or
-                        Git it from <a href="https://github.com/Farroyosd/countrieshackathon"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+            <div class="pCard">
+                <img src="./views/public/dst.png" alt="Image of Project" style="width:100%">
+                <div style="background-color: #0000001c;height:1px"></div>
+                <div class="pInfo">
+                    <h4><b>Door Stop Food</b></h4>
+                    <div class="pCardFooter">
+                    <p>A Web App clone of Postmates food delivery</p>
+                    <form action="/DoorStopFood" method="GET">
+                        <button class="pBtn btn" type="submit">See More</button>
+                    </form>
                 </div>
-                <div class="col-sm-4 mPImgDiv">
-                    <div class="twImg pImgDiv"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 mPImgDiv">
-                    <div class="pfImg pImgDiv"></div>
-                </div>
-                <div class="col-sm-8 a3 pfDesDivs pfDes">
-                    <h1>Portfolio</h1>
-                    <p>Single page, smooth scrolling, Portfolio project with top fixed Navigation bar, 4 navigable sections
-                        and a footer, built with Node, Express, EJS and Twilio API. Project is mobile compatible. Contact
-                        section uses Twilio API to contact site owner via Text Message.</p>
-                    <p>View app via <a href=""><img class="herokuIcon" src="./views/public/herokuIcon.png" alt="Heroku Icon"></a>or
-                        Git it from <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a></p>
                 </div>
             </div>
-
+            <div class="pCard">
+                <img src="./views/public/mfinder.png" alt="Image of Project" style="width:100%">
+                <div style="background-color: #0000001c;height:1px;"></div>
+                <div class="pInfo">
+                    <h4><b>Movie Finder</b></h4>
+                    <div class="pCardFooter">
+                    <p>Let's find you a movie</p>
+                    <form action="/MovieFinder" method="GET">
+                    <button class="pBtn btn">See More</button>
+                </form>
+                </div>
+            </div>
+            </div>
+            <div class="pCard">
+                <img src="./views/public/weatherapp.png" alt="Image of Project" style="width:100%">
+                <div style="background-color: #0000001c;height:1px;"></div>
+                <div class="pInfo">
+                    <h4><b>Origin Weather App</b></h4>
+                    <div class="pCardFooter">
+                    <p>Always know if you'll need an umbrella!</p>
+                    <form action="/WeatherApp" method="GET">
+                    <button class="pBtn btn">See More</button>
+                </form>
+                </div>
+            </div>
+            </div>
+            <div class="pCard">
+                <img src="./views/public/TravelWise.png" alt="Image of Project" style="width:100%">
+                <div style="background-color: #0000001c;height:1px;"></div>
+                <div class="pInfo">
+                    <h4><b>Travel Wise</b></h4>
+                    <div class="pCardFooter">
+                    <p>Quick facts to make you a Wise Traveller</p>
+                    <form action="/TravelWise" method="GET">
+                    <button class="pBtn btn">See More</button>
+                </form>
+                </div>
+            </div>
         </div>
     </div>
     <div class="divs contact" id="contact">
@@ -142,11 +188,11 @@
         </form>
     </div>
     <div id="footer" class="container-fluid">
-        <p class="py-2 pr-2 text-muted text-right footer">&copy;2017 Francisco Arroyo </p>
+        <p class="py-2 pr-2 text-muted text-right footer">&copy;2018 Francisco Arroyo </p>
     </div>
 
 
-
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>

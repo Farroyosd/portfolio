@@ -1,0 +1,100 @@
+body{
+   background-color: #2c2e43;
+   letter-spacing: 1px;
+}
+.sdjsContainer{
+    background-color: white;
+    margin-left: 10vw;
+    margin-right:10vw;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.navbar{
+    background-color: #242424;
+}
+.mainHeader{
+    padding-top:1vw;
+    padding-left: 2vw; 
+}
+.pInfo{
+    width: 500px;
+    margin-left: 2vw;
+}
+.upperContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.builtInfo{
+    width: 145px;
+    margin-left:2vw;
+    margin-top:30px;
+}
+.upperContainer > img{
+    height:35vw
+}
+.midContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 140px;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+}
+.midContainer > img{
+    height:33vw
+}
+.reverseContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 140px;
+    margin-top: 2vw;
+    flex-wrap: wrap-reverse;
+}
+.reverseContainer > img{
+    height:33vw
+}
+.signupInfo{
+    width: 28vw;
+    margin-left:2vw;
+    margin-top:30px;
+}
+.signupInfo > p{
+    padding-top:7vw;
+}
+
+#footer{
+    background-color: #242424;
+}
+.footer{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px){
+    .pInfo {
+        width: 300px;
+    }
+    .upperContainer > img {
+        height: 43vw;
+    }
+    .builtInfo {
+        width: 132px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .midContainer {
+        margin: 0px;
+    }
+    .midContainer > img {
+        height: 100vw;
+    }
+    .reverseContainer {
+        margin: 0px;
+    }
+    .reverseContainer > img {
+        height: 100vw;
+    }
+    .signupInfo {
+        width: 77vw;
+    }
+}

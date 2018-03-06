@@ -1,0 +1,100 @@
+body{
+    background-color: #2c2e43;
+    letter-spacing: 1px;
+ }
+ .mfContainer{
+     background-color: white;
+     margin-left: 10vw;
+     margin-right:10vw;
+     height: auto;
+     padding-bottom: 30px;
+ }
+ 
+ .navbar{
+     background-color: #242424;
+ }
+ .mainHeader{
+     padding-top:1vw;
+     padding-left: 2vw; 
+ }
+ .pInfo{
+     width: 500px;
+     margin-left: 2vw;
+     margin-bottom: 0;
+ }
+ .mkLink{
+     margin-left: 2vw;
+     font-size: 15px;
+
+ }
+ .mkLink:hover {
+    text-decoration: none;
+}
+ .upperContainer{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap-reverse;
+ }
+ .builtInfo{
+     width: 132px;
+     margin-left:2vw;
+     margin-top:30px;
+ }
+ img {
+    border: 1px solid #0000001a;
+    border-radius: 5px;
+    height:35vw
+ }
+ .imgContainer{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 5vw;
+     flex-wrap: wrap;
+     
+ }
+ 
+ .signupInfo{
+     width: 60vw;
+     margin: 0 auto;
+     margin-top: 2vw;
+ }
+
+ 
+ #footer{
+     background-color: #242424;
+ }
+ .footer{
+     margin-bottom: 0;
+ }
+ 
+ @media screen and (max-width: 576px){
+     .pInfo {
+         width: 300px;
+     }
+     img {
+         height: 43vw;
+     }
+     .builtInfo {
+         width: 132px;
+         margin-top: 10px;
+         font-size: 12px;
+     }
+     .midContainer {
+         margin: 0px;
+     }
+     .midContainer > img {
+         height: 100vw;
+     }
+     .reverseContainer {
+         margin: 0px;
+     }
+     .reverseContainer > img {
+         height: 100vw;
+     }
+     .signupInfo {
+         width: 77vw;
+     }
+     p{
+        font-size: 13px;
+     }
+ }

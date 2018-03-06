@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../mfStyles.css' />
+    <title> Movie Finder </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <a class="navbar-brand" href="/">Francisco Arroyo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/#portfolio">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mfContainer">
+        <h1 class="mainHeader">Movie Finder</h1>
+        <p class="pInfo">A web app for movie searches. Let's find you a movie to watch. </p>
+        <a class="mkLink" href="https://fa-movie-finder.herokuapp.com">See It Live Here</a>
+        <div class="upperContainer">
+            <div class="builtInfo">
+                <p>Built with:</p>
+                <ul>
+                    <li>Express</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>Redux</li>
+                    <li>OMDB API</li>
+                    <li>Bootstrap</li>
+                    <li>& more...</li>
+                </ul>
+            </div>
+            <img src="./views/public/mfinder.png" alt="Image of Project">
+        </div>
+        <div class="imgContainer">
+            <img src="./views/public/mfSearch.png" alt="Image of Project">
+        </div>
+        <div class="signupInfo">
+            <p>If you're a Bruce Willis fan you might enter "Die Hard" in the search bar. 
+                 On "Go!", an Axios HTTP request is sent to the Online Movie Data Base (OMDB) API,
+                  which returns 10 movies based off the search. But which one
+                   did you want to watch? </p>
+        </div>
+        <div class="imgContainer">
+            <img src="./views/public/mfdetails.png" alt="Image of Project">
+        </div>
+        <div class="signupInfo">
+            <p>View further details and movie ratings to make your decision. Based on the selected 
+                movie's id an Axios HTTP request to OBDM API retrieves further movie details for display.
+                Not the movie you wanted to watch, click "Go Back" and start a new search!
+
+            </p>
+        </div>
+
+    </div>
+
+    <div id="footer" class="container-fluid">
+        <p class="py-2 pr-2 text-muted text-right footer">&copy;2018 Francisco Arroyo </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
